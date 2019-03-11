@@ -1,0 +1,3 @@
+add_lunch_combo lineage_porridge-eng
+add_lunch_combo lineage_porridge-userdebug
+add_lunch_combo lineage_porridge-user
