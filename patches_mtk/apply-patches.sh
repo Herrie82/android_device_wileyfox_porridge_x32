@@ -13,10 +13,10 @@ cd packages/apps/Settings
 git apply -v ../../../device/wileyfox/porridge/patches_mtk/settings.patch
 cd ../../..
 cd frameworks/av
-patch -p1 < ../../device/wileyfox/porridge/patches_mtk/frameworks_av_new.patch
+git apply -v ../../device/wileyfox/porridge/patches_mtk/frameworks_av_new.patch
 cd ..
 cd native
-patch -p1 < ../../device/wileyfox/porridge/patches_mtk/frameworks_native_new.patch
+git apply -v ../../device/wileyfox/porridge/patches_mtk/frameworks_native_new.patch
 cd ..
 cd base
 git apply -v ../../device/wileyfox/porridge/patches_mtk/frameworks_base.patch
