@@ -22,7 +22,7 @@ echo ""
 echo "Patching packages/apps/Settings"
 echo ""
 cd packages/apps/Settings
-git apply -v ../../../device/wileyfox/porridge/patches_mtk/settings.patch
+git apply -v ../../../device/wileyfox/porridge/patches_mtk/settings_crdroid.patch
 cd ../../..
 echo ""
 echo "Patching frameworks/av"
