@@ -4,7 +4,7 @@ DEVICE=porridge
 VENDOR=wileyfox
 
 OUTDIR=vendor/$VENDOR/$DEVICE
-MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
+MAKEFILE=../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
 (cat << EOF) > $MAKEFILE
 # Copyright (C) 2016 The CyanogenMod Project
